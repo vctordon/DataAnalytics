@@ -1,0 +1,50 @@
+∗ What does a value in this column represent? What values might you see here?
+∗ Is this column a part of the primary key to this table?
+∗ Is this column a part of a foreign key that points to a record in another table?
+∗ Would this column be valuable to bring into our Power BI Model? Yes, or no? Why?
+
+∗ Do you believe this column is appropriately named for Data Analysis purposes?
+∗ If not, what might be a more appropriate name?
+∗ What might be the data type and format for this column in a Power BI Model?
+∗ Can you think of any calculations where this column data might be used?
+
+Categories 
+Information on categories
+PK: CategoryID
+FK: NA
+Yes for category name
+Yes specific to whats needed
+
+Customers
+Customer details
+PK: CustomerID
+FK: NA
+Yes the customer ID to the orders 
+Provides customer information
+
+
+Employees 
+Employee details
+PK:EmployeeID
+FK: NA
+Employee details 
+No not necessary to detailed analysis 
+
+Employeeterritories
+ID and territory ID
+PK: employee ID Territory ID
+FK: NA
+No not necessary
+
+OrderDetails
+Order information and quantities
+PK: Order ID and Product ID
+FK: NA
+Yes needed for review of orders
+Should be named differently to not confuse with Orders
+
+Orders
+Order dates and customer details 
+PK: OrderID
+FK: NA
+Yes needed to review orders and more detail
